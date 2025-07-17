@@ -7,8 +7,7 @@ $ python -m venv .venv
 # .venv 폴더에 환경 생성
 
 # windows
-$ echo .venv/bin/activate >> run.bat
-# cmd창에서 run.bat
+$ . .venv/Scripts/activate
 
 # mac
 $ source .venv/bin/activate
